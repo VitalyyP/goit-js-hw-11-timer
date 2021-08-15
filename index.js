@@ -36,7 +36,7 @@ class CountdownTimer {
       .toString()
       .padStart(2, "0");
     secsRef.textContent = Math.floor((time % (1000 * 60)) / 1000)
-      .toString()git
+      .toString()
       .padStart(2, "0");
   }
 }
