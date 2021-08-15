@@ -36,11 +36,11 @@ class CountdownTimer {
       .toString()
       .padStart(2, "0");
     secsRef.textContent = Math.floor((time % (1000 * 60)) / 1000)
-      .toString()
+      .toString()git
       .padStart(2, "0");
   }
 }
 
-const timer = new CountdownTimer(new Date("Aug 15, 2021 23:50:00"));
+const timer = new CountdownTimer(new Date("Aug 15, 2022 23:50:00"));
 
 timer.start();
